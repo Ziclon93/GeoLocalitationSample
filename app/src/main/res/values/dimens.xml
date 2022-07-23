@@ -1,0 +1,21 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="vehicle_card_height_size">120dp</dimen>
+    <dimen name="standard_minimum_margin">5dp</dimen>
+    <dimen name="standard_medium_margin">10dp</dimen>
+
+    <dimen name="vehicle_card_text_size">12sp</dimen>
+
+    <dimen name="vehicle_card_corner_radius">8dp</dimen>
+    <dimen name="vehicle_card_elevation">4dp</dimen>
+    <dimen name="vehicle_card_icon_holder_width">80dp</dimen>
+    <dimen name="vehicle_card_icon_holder_height">80dp</dimen>
+    <dimen name="vehicle_card_icon_holder_corner_radius">250dp</dimen>
+    <dimen name="vehicle_card_icon_width">50dp</dimen>
+    <dimen name="vehicle_card_icon_height">50dp</dimen>
+
+
+    <dimen name="vehicle_card_arrow_holder_width">40dp</dimen>
+    <dimen name="vehicle_card_arrow_width">20dp</dimen>
+    <dimen name="vehicle_card_arrow_height">80dp</dimen>
+</resources>

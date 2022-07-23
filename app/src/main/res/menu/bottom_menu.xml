@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragment_vehicle_catalog_option"
+        android:icon="@drawable/ic_vehicle"
+        android:title="@string/menu_option_vehicle_catalog" />
+    <item
+        android:id="@+id/fragment_map_option"
+        android:icon="@drawable/ic_map"
+        android:title="@string/menu_option_map" />
+</menu>

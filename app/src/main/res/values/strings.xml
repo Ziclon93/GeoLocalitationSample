@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FreeNowTest</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="fragment_vehicles_label">Vehicles Fragment</string>
+    <string name="fragment_map_label">Map Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_pepe">pepe</string>
+    <string name="title_data">data</string>
+
+    <string name="vehicle">Vehicle</string>
+    <string name="retry">Retry</string>
+    <string name="unknown">Unknown</string>
+    <string name="alert_dialog_api_error_message">Api is not working</string>
+
+    <string name="menu_option_vehicle_catalog">First Exercise</string>
+    <string name="menu_option_map">Second Exercise</string>
+</resources>

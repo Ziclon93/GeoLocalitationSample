@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragment_vehicle_catalog">
+
+    <fragment
+        android:id="@+id/fragment_vehicle_catalog"
+        android:name="com.example.freenowtest.ui.catalog.VehicleCatalogFragment"
+        android:label="@string/fragment_vehicles_label"
+        tools:layout="@layout/fragment_vehicle_catalog">
+
+        <action
+            android:id="@+id/action_FirstFragment_to_SecondFragment"
+            app:destination="@id/fragment_map"/>
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_map"
+        android:name="com.example.freenowtest.ui.map.MapFragment"
+        android:label="@string/fragment_map_label"
+        tools:layout="@layout/fragment_map">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/fragment_vehicle_catalog" />
+        <argument
+            android:name="vehicle"
+            app:argType="com.example.freenowtest.domain.model.Vehicle"
+            app:nullable="true"
+            android:defaultValue="@null" />
+    </fragment>
+</navigation>
